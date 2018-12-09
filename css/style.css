@@ -1,0 +1,149 @@
+html,body {
+    margin: 0;
+    width: 100%;
+    background-color:#3A3A3A;
+}
+
+body {
+
+}
+
+main {
+    background-color:#575757;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+
+.header {
+    height: 146px;
+    background-color: #7D7D7D;
+}
+
+.logo {
+    margin-right: 30px;
+    margin-left: 30px;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+object {
+    max-width: 100%;
+    height: auto;
+}
+
+.smartPhoneUnderLayer {
+    margin-top: 146px;
+    position:absolute;
+    width:100%;
+    background-color:#7D7D7D;
+}
+
+.imagineBlock {
+    margin-right:30px;
+    margin-left:30px;
+}
+
+.imagineBlock img {
+    display:block;
+    max-width:100%;
+    height:auto;
+    margin:auto;
+}
+
+.imageContainer {
+    display:block;
+    position: relative;
+    height:100%;
+    margin-right:30px;
+    margin-left:30px;
+}
+
+.imageContainer img {
+    display: block;
+    margin:auto;
+    max-width: 100%;
+    min-width: 20%;
+    height: auto;
+}
+
+.content {
+    display: block;
+    width: 100%
+    background-color: red;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.content p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    max-width: 580px;
+    color: #CACACA;
+}
+
+.mailFrame {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h1 {
+
+    display: inline;
+    color:#FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+
+    letter-spacing: 0;
+    text-align: center;
+    font-weight: 500;
+    max-width: 100%;
+    height: auto;
+
+    padding: 10px 20px 10px 20px;
+
+    border-width: 1.5px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+@media (min-width: 457px) {
+
+    .content h1 {
+        font-size: 23px;
+    }
+}
+@media (max-width: 457px) {
+    
+    .content h1 {
+        font-size: 18px;
+    }
+}
+
+
+
+.footerContainer {
+    background-color:#3A3A3A; 
+    height:123px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.footerContainer p {
+    color:#919191;
+    font-weight: 300;
+    font-size: 15px;
+}
